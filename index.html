@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" id="html-tag" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammar Profile</title>
+    
+    <meta name="description" content="Portfolio of Ammar Al-Banna, a Computer Science and Engineering graduate specializing in scalable systems, automation, and UI/UX design.">
+    <meta name="keywords" content="Ammar Al-Banna, Portfolio, Computer Science, Software Engineer, Python, Web Development, Automation, UI/UX, Saudi Arabia">
+    <meta name="author" content="Ammar Mohammed Al-Banna">
+    
+    <meta property="og:title" content="Ammar Al-Banna | Portfolio">
+    <meta property="og:description" content="Explore the projects, skills, and CV of Ammar Al-Banna, a passionate CS Engineer.">
+    <meta property="og:image" content="assets/images/avatar.jpg">
+    <meta property="og:type" content="website">
+    
+    <link rel="icon" href="assets/images/icon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="index-header">
+        <button class="lang-btn" id="lang-toggle" onclick="toggleLanguage()" title="Toggle Language">AR</button>
+        <div class="profile">
+            <img class="avatar" src="assets/images/avatar.jpg" alt="Ammar Avatar">
+            <h1 class="index-name" data-i18n="name">Ammar Mohammed Al-Banna</h1>
+            <p class="index-title" data-i18n="jobTitle">Computer Science and Engineering</p>
+        </div>
+    </header>
+
+    <main class="index-main">
+        <div class="index-buttons" dir="ltr">
+            <a href="projects.html" class="index-btn" data-i18n="projectsBtn">Projects</a>
+            <a href="cv.html" class="index-btn gold" data-i18n="cvBtn">CV</a>
+            <a href="skills.html" class="index-btn" data-i18n="skillsBtn">Skills</a> 
+        </div>
+        
+        <p class="index-bio" data-i18n="bio">Passionate CS Engineer focusing on innovative solutions and scalable systems.</p>
+        
+        <div class="index-grid" dir="ltr">
+            <a href="mailto:ammar.m.banna@gmail.com" class="index-card"><i class="fa-solid fa-envelope"></i> <span>ammar.m.banna@gmail.com</span></a>
+            <a href="whatsapp://send?phone=966551794244" class="index-card"><i class="fa-solid fa-phone"></i> <span dir="ltr">+966 55 179 4244</span></a>
+            <div class="index-card"><i class="fa-solid fa-location-dot"></i> <span data-i18n="location">Saudi Arabia, Al-Sharqiya</span></div>
+            <a href="https://www.linkedin.com/in/ammar-al-banna-bb7bb72b2" target="_blank" class="index-card"><i class="fa-brands fa-linkedin"></i> <span data-i18n="linkName" dir="ltr">Ammar Al-Banna</span></a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p data-i18n="footerText">© 2026 Ammar Al-Banna. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>

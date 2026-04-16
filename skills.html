@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" id="html-tag" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Ammar Profile</title>
+
+    <meta name="description" content="Detailed professional skills breakdown for Ammar Al-Banna, combining aesthetic design with robust engineering expertise.">
+    <meta name="keywords" content="Ammar Al-Banna, Skills, AI Prompting, Data Analysis, Python, PyQt, UI Design, Hardware Setup">
+    <meta name="author" content="Ammar Mohammed Al-Banna">
+    
+    <meta property="og:title" content="Skills | Ammar Al-Banna">
+    <meta property="og:description" content="Detailed professional skills breakdown for Ammar Al-Banna.">
+    <meta property="og:image" content="assets/images/icon.png">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="assets/images/icon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="header-top skill-header" id="header-top">
+        <button class="lang-btn" id="lang-toggle" onclick="toggleLanguage()" title="Toggle Language">AR</button>
+        <h1 class="header-title" data-i18n="pageTitle">Skills</h1>
+        <div class="nav-links">
+            <a href="projects.html" class="nav-btn gold" data-i18n-title="projectsBtn" title="Projects"><i class="fa-solid fa-folder-open"></i></a>
+            <a href="cv.html" class="nav-btn gold" data-i18n-title="cvBtn" title="CV">CV</a>
+            <a href="index.html" class="nav-btn gold" data-i18n-title="profileBtn" title="Profile"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </nav>
+    
+    <header class="skills-header">
+        <h1 data-i18n="pageHeader">Professional Skills</h1>
+        <p data-i18n="pageSub">A detailed breakdown of my capabilities, combining aesthetic design with robust engineering.</p>
+    </header>
+
+    <main class="skills-wrapper">
+        <div class="skills-grid">
+            
+            <div class="skill-card" id="technical-skills">
+                <div class="bg-layer"></div>
+                <i class="fa-solid fa-laptop-code bg-icon"></i>
+                <div class="card-inner">
+                    <h2 class="title" data-i18n-html="techTitle">Core <span class="highlight-gold">Engineering</span></h2>
+                    <h3 style="margin: -1rem 0 1rem 0;"><em data-i18n="techSub">Technical Skills</em></h3>
+                    <p class="description" data-i18n-html="techDesc">
+                        I build <span class="bold-word">robust systems</span> and scalable apps. From <span class="accent-word">backend logic</span> to <span class="bold-word">desktop GUIs</span>, I focus on clean architecture and high-performance code.
+                    </p>
+                    <div class="clean-skill-list">
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-brands fa-python"></i></div>
+                            <span data-i18n="ts1">Python & PyQt</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-globe"></i></div>
+                            <span data-i18n="ts2">Web (HTML/CSS/JS)</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-database"></i></div>
+                            <span data-i18n="ts3">SQL Server</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-terminal"></i></div>
+                            <span data-i18n="ts4">PowerShell Auto</span>
+                        </div>
+                    </div>
+                    <div class="signature" data-i18n="techSig">Turning complex logic into seamless software solutions.</div>
+                </div>
+            </div>
+
+            <div class="skill-card" id="ai-interaction">
+                <div class="bg-layer"></div>
+                <i class="fa-solid fa-robot bg-icon"></i>
+                <div class="card-inner">
+                    <h2 class="title" data-i18n-html="aiTitle">AI <span class="highlight-gold">Synergy</span></h2>
+                    <h3 style="margin: -1rem 0 1rem 0;"><em data-i18n="aiSub">Artificial Intelligence Interaction</em></h3>
+                    <p class="description" data-i18n-html="aiDesc">
+                        Mastering the art of <span class="accent-word">communication with machines</span>. I use <span class="bold-word">Prompt Engineering</span> to accelerate development and solve complex algorithmic hurdles.
+                    </p>
+                    <div class="clean-skill-list">
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-pen-to-square"></i></div>
+                            <span data-i18n="ai1">Prompt Structuring</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-list-check"></i></div>
+                            <span data-i18n="ai2">Task Formulation</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-bug-slash"></i></div>
+                            <span data-i18n="ai3">AI Debugging</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-code-branch"></i></div>
+                            <span data-i18n="ai4">Logic Breakdown</span>
+                        </div>
+                    </div>
+                    <div class="signature" data-i18n="aiSig">Bridging human intent and machine execution perfectly.</div>
+                </div>
+            </div>
+
+            <div class="skill-card" id="data-analysis">
+                <div class="bg-layer"></div>
+                <i class="fa-solid fa-chart-pie bg-icon"></i>
+                <div class="card-inner">
+                    <h2 class="title" data-i18n-html="dataTitle">Data <span class="highlight-gold">Mastery</span></h2>
+                    <h3 style="margin: -1rem 0 1rem 0;"><em data-i18n="dataSub">Data & Analysis</em></h3>
+                    <p class="description" data-i18n-html="dataDesc">
+                        Numbers tell a story if you know how to read them. I excel at <span class="bold-word">structuring chaos</span> into <span class="accent-word">organized datasets</span> for deep analysis.
+                    </p>
+                    <div class="clean-skill-list">
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-table"></i></div>
+                            <span data-i18n="da1">Data Structuring</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                            <span data-i18n="da2">Complex Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-file-excel"></i></div>
+                            <span data-i18n="da3">Advanced Excel</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-filter"></i></div>
+                            <span data-i18n="da4">Data Cleaning</span>
+                        </div>
+                    </div>
+                    <div class="signature" data-i18n="dataSig">Transforming raw inputs into structured, actionable insights.</div>
+                </div>
+            </div>
+
+            <div class="skill-card" id="design-creativity">
+                <div class="bg-layer"></div>
+                <i class="fa-solid fa-palette bg-icon"></i>
+                <div class="card-inner">
+                    <h2 class="title" data-i18n-html="designTitle">Artistic <span class="highlight-gold">Instinct</span></h2>
+                    <h3 style="margin: -1rem 0 1rem 0;"><em data-i18n="designSub">Design & Creativity</em></h3>
+                    <p class="description" data-i18n-html="designDesc">
+                        I live and breathe <span class="accent-word">design</span> and <span class="accent-word">art</span>. From sketching to <span class="bold-word">UI/UX design</span>, my creative eye turns concepts into <span class="highlight-gold">stunning realities</span>.
+                    </p>
+                    <div class="clean-skill-list">
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-object-group"></i></div>
+                            <span data-i18n="ds1">UI/UX Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-palette"></i></div>
+                            <span data-i18n="ds2">Photoshop</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-pen-nib"></i></div>
+                            <span data-i18n="ds3">Digital Art</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-eye"></i></div>
+                            <span data-i18n="ds4">Attention to Detail</span>
+                        </div>
+                    </div>
+                    <div class="signature" data-i18n="designSig">Not just an engineer — a creative force driven by precision.</div>
+                </div>
+            </div>
+
+            <div class="skill-card" id="systems-hardware">
+                <div class="bg-layer"></div>
+                <i class="fa-solid fa-server bg-icon"></i>
+                <div class="card-inner">
+                    <h2 class="title" data-i18n-html="sysTitle">Hardware <span class="highlight-gold">Expertise</span></h2>
+                    <h3 style="margin: -1rem 0 1rem 0;"><em data-i18n="sysSub">Systems & Hardware</em></h3>
+                    <p class="description" data-i18n-html="sysDesc">
+                        Deep understanding of <span class="bold-word">IT infrastructure</span>. I diagnose, assemble, and optimize hardware to ensure <span class="accent-word">maximum performance</span>.
+                    </p>
+                    <div class="clean-skill-list">
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                            <span data-i18n="sh1">PC Assembly</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-stethoscope"></i></div>
+                            <span data-i18n="sh2">Troubleshooting</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-gauge-high"></i></div>
+                            <span data-i18n="sh3">Optimization</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-network-wired"></i></div>
+                            <span data-i18n="sh4">Network Basics</span>
+                        </div>
+                    </div>
+                    <div class="signature" data-i18n="sysSig">Building and maintaining the physical backbone of technology.</div>
+                </div>
+            </div>
+
+            <div class="skill-card" id="additional-skills">
+                <div class="bg-layer"></div>
+                <i class="fa-solid fa-layer-group bg-icon"></i>
+                <div class="card-inner">
+                    <h2 class="title" data-i18n-html="addTitle">Professional <span class="highlight-gold">Toolkit</span></h2>
+                    <h3 style="margin: -1rem 0 1rem 0;"><em data-i18n="addSub">Additional Skills</em></h3>
+                    <p class="description" data-i18n-html="addDesc">
+                        Beyond coding, I excel at <span class="bold-word">communicating ideas</span>. Crafting clear documentation and engaging presentations is <span class="accent-word">second nature</span>.
+                    </p>
+                    <div class="clean-skill-list">
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-file-signature"></i></div>
+                            <span data-i18n="ad1">Tech Docs</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-person-chalkboard"></i></div>
+                            <span data-i18n="ad2">Presentations</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-lightbulb"></i></div>
+                            <span data-i18n="ad3">Problem Solving</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-wrapper"><i class="fa-solid fa-users"></i></div>
+                            <span data-i18n="ad4">Team Collaboration</span>
+                        </div>
+                    </div>
+                    <div class="signature" data-i18n="addSig">Delivering clarity, structure, and impact in every project.</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p data-i18n="footerText">© 2026 Ammar Al-Banna. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>

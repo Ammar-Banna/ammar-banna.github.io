@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" id="html-tag" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Ammar Profile</title>
+
+    <meta name="description" content="Ammar Al-Banna's Curriculum Vitae. Explore work experience, education, skills, and download the full professional resume.">
+    <meta name="keywords" content="Ammar Al-Banna, CV, Resume, Computer Science Engineer, Saudi Arabia, Portfolio">
+    <meta name="author" content="Ammar Mohammed Al-Banna">
+    
+    <meta property="og:title" content="CV | Ammar Al-Banna">
+    <meta property="og:description" content="Ammar Al-Banna's professional resume. View work history, education, and technical expertise.">
+    <meta property="og:image" content="assets/images/icon.png">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="assets/images/icon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="header-top" id="header-top">
+        <button class="lang-btn" id="lang-toggle" onclick="toggleLanguage()" title="Toggle Language">AR</button>
+        <h1 class="header-title" data-i18n="cvTitlePage">Curriculum Vitae</h1>
+        <div class="nav-links">
+            <a href="skills.html" class="nav-btn gold" data-i18n-title="skillsBtn" title="Skills"><i class="fa-solid fa-puzzle-piece"></i></a>
+            <a href="projects.html" class="nav-btn gold" data-i18n-title="projectsBtn" title="Projects"><i class="fa-solid fa-folder-open"></i></a>
+            <a href="index.html" class="nav-btn gold" data-i18n-title="profileBtn" title="Profile"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </nav>
+    
+    <header class="cv-header">
+        <div class="header-content">
+            <div class="name-title-group">
+                <div class="cv-name" data-i18n="name">Ammar Mohammed Al-Banna</div>
+                <div class="cv-job-title" data-i18n="jobTitle">Computer Science and Engineering</div>
+            </div>
+            
+            <div class="contact-grid">
+                <a href="mailto:ammar.m.banna@gmail.com" class="contact-item"><i class="fa-solid fa-envelope"></i><span dir="ltr">ammar.m.banna@gmail.com</span></a>
+                <a href="whatsapp://send?phone=966551794244" class="contact-item"><i class="fa-solid fa-phone"></i><span dir="ltr">+966 55 179 4244</span></a>
+                <div class="contact-empty"></div>
+                <div class="contact-item"><i class="fa-solid fa-location-dot"></i> <span data-i18n="location">Saudi Arabia, Al-Sharqiya</span></div>
+                <a href="https://www.linkedin.com/in/ammar-al-banna-bb7bb72b2" target="_blank" class="contact-item"><i class="fa-brands fa-linkedin"></i><span dir="ltr">Ammar Al-Banna</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="cv-wrapper">
+        
+        <div class="cv-main">
+            
+            <div class="intro-text" data-i18n-html="summary">
+                I craft efficient and intuitive software experiences by blending Computer Science with a strong sense of design. I specialize in <strong>automation, data organization,</strong> and <strong>UI design</strong>, turning complex ideas into simple, elegant solutions.
+            </div>
+
+            <h2 class="section-header"><i class="fa-solid fa-briefcase"></i> <span data-i18n="expTitle">Work Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">01/2025 - 08/2025</div>
+                    <div class="timeline-title" data-i18n="jobTitleExp">Systems Support Engineer (CO-OP)</div>
+                    <div class="timeline-subtitle" data-i18n="jobLocation">Deanship of E-Learning and digital transformation, University of Hafr Al-Batin</div>
+                    <div class="timeline-desc">
+                        <ul data-i18n-html="jobDesc">
+                            <li>Automated computer setup and maintenance tasks via PowerShell GUIs, reducing execution time by 50%.</li>
+                            <li>Developed a PyQt desktop application for interactive contact and business card management.</li>
+                            <li>Managed hardware inventory, component replacement, and server rack organization.</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/coopCer.jpeg" class="cert-thumb" onclick="openLightbox(this.src)" alt="Experience Certificate">
+                </div>
+            </div>
+
+            <h2 class="section-header"><i class="fa-solid fa-graduation-cap"></i> <span data-i18n="eduTitle">Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">08/2020 – 01/2026</div>
+                    <div class="timeline-title" data-i18n="degreeTitle">Bachelor of Computer Science and Engineering</div>
+                    <div class="timeline-subtitle" data-i18n="uniName">University of Hafr Al-Batin</div>
+                    <div class="timeline-desc">
+                        <ul data-i18n-html="eduDesc">
+                            <li>Graduation project: Designed a conflict-free scheduling system and a visually optimized interface for university hall bookings.</li>
+                        </ul>
+                    </div>
+                    <div class="certs-container">
+                        <img src="assets/images/uniCer.jpeg" class="cert-thumb" onclick="openLightbox(this.src)" alt="Degree Certificate">
+                        <img src="assets/images/behaviorCer.png" class="cert-thumb" onclick="openLightbox(this.src)" alt="Behavior Certificate">
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-header"><i class="fa-solid fa-puzzle-piece"></i> <span data-i18n="skillsTitleCV">Skills</span></h2>
+            
+            <div class="cv-skills-grid">
+                <a href="skills.html#technical-skills" class="skills-group">
+                    <div class="skills-group-title" data-i18n="techSkills">Technical Skills</div>
+                    <div class="tags-container" data-i18n-html="techTags">
+                        <span class="tag">Python</span><span class="tag">PyQt</span><span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span><span class="tag">SQL</span><span class="tag">PowerShell</span>
+                    </div>
+                </a>
+                
+                <a href="skills.html#ai-interaction" class="skills-group">
+                    <div class="skills-group-title" data-i18n="aiSkills">AI Interaction</div>
+                    <div class="tags-container" data-i18n-html="aiTags">
+                        <span class="tag">Prompt Engineering</span><span class="tag">Task Formulation</span><span class="tag">Effective AI Communication</span>
+                    </div>
+                </a>
+                
+                <a href="skills.html#data-analysis" class="skills-group">
+                    <div class="skills-group-title" data-i18n="dataSkills">Data & Analysis</div>
+                    <div class="tags-container" data-i18n-html="dataTags">
+                        <span class="tag">Data Structuring</span><span class="tag">Complex Data Analysis</span><span class="tag">Advanced Excel</span>
+                    </div>
+                </a>
+
+                <a href="skills.html#design-creativity" class="skills-group">
+                    <div class="skills-group-title" data-i18n="designSkills">Design & Creativity</div>
+                    <div class="tags-container" data-i18n-html="designTags">
+                        <span class="tag">UI/UX Design</span><span class="tag">Adobe Photoshop</span><span class="tag">Sketching & Digital Art</span>
+                    </div>
+                </a>
+
+                <a href="skills.html#systems-hardware" class="skills-group">
+                    <div class="skills-group-title" data-i18n="sysSkills">Systems & Hardware</div>
+                    <div class="tags-container" data-i18n-html="sysTags">
+                        <span class="tag">PC Assembly</span><span class="tag">Hardware Troubleshooting</span><span class="tag">System Optimization</span>
+                    </div>
+                </a>
+
+                <a href="skills.html#additional-skills" class="skills-group">
+                    <div class="skills-group-title" data-i18n="addSkills">Additional Skills</div>
+                    <div class="tags-container" data-i18n-html="addTags">
+                        <span class="tag">Technical Documentation</span><span class="tag">Presentation Design</span>
+                    </div>
+                </a>
+            </div>
+
+            <h2 class="section-header"><i class="fa-solid fa-language"></i> <span data-i18n="langSectionTitle">Languages</span></h2>
+            <div class="lang-grid">
+                <div class="lang-card">
+                    <div class="lang-header">
+                        <span class="lang-name" data-i18n="arabicTitle">Arabic</span>
+                        <span class="lang-level" data-i18n="arabicLevel">Native</span>
+                    </div>
+                    <p class="lang-desc" data-i18n="arabicDesc">Mother tongue, fluent in reading, writing, and professional communication.</p>
+                </div>
+                <div class="lang-card">
+                    <div class="lang-header">
+                        <span class="lang-name" data-i18n="englishTitle">English</span>
+                        <span class="lang-level" data-i18n="englishLevel">Proficient</span>
+                    </div>
+                    <p class="lang-desc" data-i18n="englishDesc">Strong ability in technical reading, writing documentation, and seamless professional communication.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <aside class="cv-sidebar">
+            <div class="cv-preview-box">
+                <a href="assets/docs/AmmarCV.pdf" target="_blank" title="Open PDF">
+                    <img src="assets/images/AmmarCV.png" class="cv-preview-img" style="cursor: pointer;" alt="CV Preview">
+                </a>
+            </div>
+            
+            <a href="assets/docs/AmmarCV.pdf" download class="download-btn">
+                <i class="fa-solid fa-download"></i> <span data-i18n="downloadCvBtn">Download CV</span>
+            </a>
+        </aside>
+
+    </main>
+
+    <footer class="footer">
+        <p data-i18n="footerText">© 2026 Ammar Al-Banna. All Rights Reserved.</p>
+    </footer>
+
+    <div class="lightbox-overlay" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Enlarged View">
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
