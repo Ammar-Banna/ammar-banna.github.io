@@ -372,9 +372,9 @@ body {
    ========================================= */
 .projects-container {
     width: 100%;
-    max-width: 60rem;
+    max-width: 85rem;
     margin: 2rem auto;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
 }
 
 .projects-grid {
@@ -653,7 +653,7 @@ body {
     width: 100%;
     max-width: 85rem;
     margin: -6rem auto 4rem auto;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     position: relative;
     z-index: 10;
 }
@@ -791,6 +791,9 @@ body {
     font-size: 1rem;
     transition: border-color 0.3s ease, transform 0.3s ease;
 }
+[dir="rtl"] .skill-item {
+    padding: 0.6rem 0.6rem 0.6rem 0;
+}
 
 .skill-item:hover {
     border-color: #ce9b1b;
@@ -886,7 +889,7 @@ body {
     grid-template-columns: 1fr 350px;
     gap: 2rem;
     width: 100%;
-    max-width: 70rem;
+    max-width: 85rem;
     margin: 2rem auto;
     padding: 0 1rem;
     align-items: start;
